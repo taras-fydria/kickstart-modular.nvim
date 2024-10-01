@@ -149,6 +149,7 @@ local servers = {
   rust_analyzer = require 'custom.configs.lsp.rast_analyzer',
   dockerls = require 'custom.configs.lsp.dockerls',
   docker_compose_language_service = require 'custom.configs.lsp.docker_compose_language_service',
+  phpactor = require 'custom.configs.lsp.phpactor',
 }
 
 -- Ensure the servers and tools above are installed
