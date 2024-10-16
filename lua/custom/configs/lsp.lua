@@ -150,6 +150,7 @@ local servers = {
   dockerls = require 'custom.configs.lsp.dockerls',
   docker_compose_language_service = require 'custom.configs.lsp.docker_compose_language_service',
   phpactor = require 'custom.configs.lsp.phpactor',
+  jsonls = require 'custom.configs.lsp.jsonls',
 }
 
 -- Ensure the servers and tools above are installed
