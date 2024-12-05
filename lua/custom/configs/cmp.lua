@@ -73,6 +73,7 @@ cmp.setup {
     { name = 'luasnip' },
     { name = 'path' },
     { name = 'buffer' },
+    -- { name = 'vsnip' }, -- For vsnip users.
   },
   formatting = {
     format = function(entry, vim_item)
