@@ -1,4 +1,3 @@
-vim.opt.termguicolors = true
 require('bufferline').setup {
   options = {
     hover = {
@@ -26,6 +25,7 @@ require('bufferline').setup {
   },
 }
 
+vim.opt.termguicolors = true
 vim.keymap.set('n', '<Tab>', ':BufferLineCycleNext<CR>', {})
 vim.keymap.set('n', '<S-Tab>', ':BufferLineCyclePrev<CR>', {})
 vim.keymap.set('n', '<leader>-q', ':q<CR>', {})

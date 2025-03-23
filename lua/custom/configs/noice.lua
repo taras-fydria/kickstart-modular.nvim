@@ -1,6 +1,5 @@
 local noice = require 'noice'
-
-noice.setup {
+local setup = {
   routes = {
     {
       view = 'notify',
@@ -24,3 +23,5 @@ noice.setup {
     inc_rename = false, -- enables an input dialog for inc-rename.nvim
   },
 }
+
+noice.setup(setup)

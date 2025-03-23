@@ -151,6 +151,7 @@ local servers = {
   docker_compose_language_service = require 'custom.configs.lsp.docker_compose_language_service',
   phpactor = require 'custom.configs.lsp.phpactor',
   jsonls = require 'custom.configs.lsp.jsonls',
+  emmet_language_server = require 'custom.configs.lsp.emmet_language_server',
 }
 
 -- Ensure the servers and tools above are installed
